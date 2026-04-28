@@ -12,7 +12,6 @@ function cd {
 }
 
 # custom prompt and colors
-#export PS1=$'%F{208}%n@mac%f %F{81}%~%f\n%F{221}%#%f '
 PROMPT='%F{208}%n@mac%f %F{81}%~%f $(git_branch)
 %F{221}%#%f '
 export CLICOLOR=1
