@@ -25,12 +25,6 @@ A simple, clean, and practical Zsh setup for a better terminal experience.
 
 ---
 
-## 📦 What's Inside
-
-- `.zshrc` – main configuration file
-
----
-
 ## 🚀 Setup
 
 ```bash
