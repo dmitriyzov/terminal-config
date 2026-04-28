@@ -42,11 +42,6 @@ source ~/.zshrc
 - Shows the current Git branch when inside a Git repo
 - Uses a clean two-line format
 
-Example:
-
-<span style="color:#ff8700">dmitriy@mac</span> <span style="color:#5fd7ff">~/projects/my-app</span> <span style="color:#00ff00">* main</span>
-<span style="color:#ffd75f">%</span>
-
 ---
 
 ## ⚡ Aliases
