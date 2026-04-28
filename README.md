@@ -17,6 +17,9 @@ A simple, clean, and practical Zsh setup for a better terminal experience.
 - 🌈 **Colorized Output**
   - Enabled via `CLICOLOR` and `LSCOLORS` for better file visibility
 
+- 📂 **Auto list on `cd`**
+  - Runs `ls -F` automatically after changing directories
+
 - ⚡ **Useful Aliases**
   - Shortcuts for common commands across general shell usage, Kubernetes, Terraform, and Laravel
 
