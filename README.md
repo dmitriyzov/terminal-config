@@ -1,4 +1,94 @@
-# bash & zsh shortcuts
+# 🖥️ Terminal Config
 
-## Installation
-merge the [contents of .zshrc](https://raw.githubusercontent.com/dmitriyzov/bash-shortcuts/refs/heads/main/.zshrc) with your existing .zshrc
+A simple, clean, and practical Zsh setup for a better terminal experience.
+
+---
+
+## ✨ Features
+
+- 🎨 **Custom Prompt**
+  - Shows `user@host`, current directory, and Git branch
+  - Clean two-line layout for readability
+
+- 🌿 **Git Branch Indicator**
+  - Displays current branch when inside a Git repo
+  - Automatically hidden outside repos
+
+- 🌈 **Colorized Output**
+  - Enabled via `CLICOLOR` and `LSCOLORS` for better file visibility
+
+- ⚡ **Useful Aliases**
+  - Shortcuts for common commands across general shell usage, Kubernetes, Terraform, and Laravel
+
+---
+
+## 📦 What's Inside
+
+- `.zshrc` – main configuration file
+
+---
+
+## 🚀 Setup
+
+```bash
+git clone https://github.com/dmitriyzov/terminal-config.git
+cd terminal-config
+cp .zshrc ~/.zshrc
+source ~/.zshrc
+```
+
+---
+
+## 🧠 Prompt Details
+
+- Uses `PROMPT_SUBST` for dynamic prompt evaluation
+- Shows the current Git branch when inside a Git repo
+- Uses a clean two-line format
+
+Example:
+
+<span style="color:#ff8700">dmitriy@mac</span> <span style="color:#5fd7ff">~/projects/my-app</span> <span style="color:#00ff00">* main</span>
+<span style="color:#ffd75f">%</span>
+
+---
+
+## ⚡ Aliases
+
+### General
+
+| Alias | Command |
+|---|---|
+| `c` | `clear` |
+| `zrc` | `vim ~/.zshrc` |
+| `src` | `source ~/.zshrc` |
+
+### ☸️ Kubernetes
+
+| Alias | Command |
+|---|---|
+| `k`, `kc` | `kubectl` |
+| `mini` | `minikube` |
+
+### 🌍 Terraform
+
+| Alias | Command |
+|---|---|
+| `tf` | `terraform` |
+| `fmt` | `terraform fmt -recursive` |
+| `init` | `terraform init` |
+| `plan` | `terraform plan` |
+| `apply` | `terraform apply` |
+
+### 🚤 Laravel
+
+| Alias | Command |
+|---|---|
+| `sail` | `[ -f sail ] && bash sail \|\| ./vendor/bin/sail` |
+
+---
+
+## 💡 Notes
+
+- Designed with macOS in mind
+- No external frameworks like Oh My Zsh required
+- Git branch display only appears inside Git repositories
