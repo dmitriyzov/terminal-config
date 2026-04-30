@@ -28,10 +28,8 @@ A simple, clean, and practical Zsh setup for a better terminal experience.
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/dmitriyzov/terminal-config.git
-cd terminal-config
-cp .zshrc ~/.zshrc
-source ~/.zshrc
+curl https://raw.githubusercontent.com/dmitriyzov/terminal-config/refs/heads/main/.zshrc >> ~/.zshrc \
+&& source ~/.zshrc
 ```
 
 ---
